@@ -1,0 +1,13 @@
+1. Download jar file
+2. Download src folder and put is next to jar file location
+3. Use the following commands:
+	java -cp Automation.jar Tests.runtest GetWikiInfo.xml
+	java -cp Automation.jar Tests.runtest BlockURLsuite.xml <cluster to test: qa,inc, etc...> DELETERULES
+	java -cp Automation.jar Tests.runtest BlockURLsuite.xml <cluster to test: qa,inc, etc...> CHECKALLOWED
+	java -cp Automation.jar Tests.runtest BlockURLsuite.xml <cluster to test: qa,inc, etc...> ADDRULE
+	java -cp Automation.jar Tests.runtest BlockURLsuite.xml <cluster to test: qa,inc, etc...> CHECKBLOCKED
+4. After the run open folder test-output next to jar file location to view results
+
+
+
+
